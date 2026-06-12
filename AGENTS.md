@@ -20,7 +20,7 @@
 
 ## Technical requirements
 - Godot 4.x (GDScript)
-- Android + Web (WebGL) export
+- Web (WebGL) + Android + iOS export
 - 3D lane-based movement (3 lanes, lateral switch, jump, slide)
 - Low-poly art
 - Builder with top-down view or free camera

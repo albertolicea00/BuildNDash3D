@@ -2,29 +2,31 @@ Source-Available License
 
 Copyright (c) 2026 Alberto
 
-Permission is granted to view, read, and study the source code contained in this repository.
+Permission is hereby granted, free of charge, to any person obtaining a copy of the source code contained in this repository.
 
-You are NOT allowed to:
-- compile the code into a playable game,
-- distribute compiled builds,
-- redistribute this source code,
-- publish this code or any derivative work,
-- use this code in commercial or non-commercial projects,
-- upload this game or any modified version to any store or website,
-- use any of the assets, names, branding, or game content (excluding any third-party CC0-licensed assets incorporated in the repository, which remain subject to their respective original licenses).
+Under this license, you are NOT allowed to:
+- Compile the code into a playable game.
+- Distribute compiled builds.
+- Redistribute or republish this source code, in whole or in part.
+- Publish this code or any derivative work.
+- Use this code in any commercial or non-commercial projects.
+- Upload this game or any modified version to any store, platform, or website.
+- Use any of the assets, names, branding, or game content contained within this repository (excluding any third-party CC0-licensed assets incorporated in the repository, which remain subject to their respective original licenses).
 
-All rights to distribute, publish, sell, or release the game (in any form) are reserved exclusively to the author.
+All rights to distribute, publish, sell, or release the game (in any form) are reserved exclusively by the author.
 
-This repository is provided for educational and reference purposes only.
+This repository is provided solely for educational and reference purposes.
 
-✔️ Tu código es visible
-✔️ Tu código es “open” para aprender
-❌ Nadie puede compilarlo
-❌ Nadie puede publicarlo
-❌ Nadie puede redistribuirlo
-❌ Nadie puede venderlo
-❌ Nadie puede usar tus assets (excluyendo assets CC0 de terceros que conservan sus propias licencias)
+Summary of Terms:
+✔️ Code visibility: The source code is public and visible.
+✔️ Educational use: You are permitted to read, study, and learn from the code.
+❌ Compilation: You are not allowed to compile it into a playable game.
+❌ Publishing: You are not allowed to publish or release it.
+❌ Redistribution: You are not allowed to redistribute the code or its compiled versions.
+❌ Commercial use: You are not allowed to sell the game or use its code commercially.
+❌ Asset utilization: You are not allowed to use proprietary game assets (excluding third-party CC0 assets).
 
-✔️ Código: Source-Available License (tu propia licencia)
-✔️ Juego final: All Rights Reserved
-✔️ Assets: All Rights Reserved (excluyendo assets CC0 de terceros)
+License Architecture:
+- Codebase: Source-Available License (this license)
+- Final Game: All Rights Reserved
+- Assets: All Rights Reserved (excluding third-party CC0 assets)
