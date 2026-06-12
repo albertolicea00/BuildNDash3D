@@ -6,6 +6,7 @@ const GameScript := preload("res://scripts/game.gd")
 const TITLE := "BUILD N DASH 3D"
 
 var menu: Control
+var bg: ColorRect
 var status: Label
 var ip_edit: LineEdit
 var game: Node3D
@@ -25,7 +26,7 @@ func _ready() -> void:
 
 
 func _build_menu() -> void:
-	var bg := ColorRect.new()
+	bg = ColorRect.new()
 	bg.color = Color(0.1, 0.14, 0.18)
 	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
 	add_child(bg)
@@ -122,6 +123,7 @@ func _start_game_remote() -> void:
 
 
 func _start_game() -> void:
+	bg.hide()
 	menu.hide()
 	game = GameScript.new()
 	game.name = "Game"  # identical node path on host and client (required for RPCs)
@@ -134,5 +136,6 @@ func _back_to_menu(message: String) -> void:
 		game.queue_free()
 		game = null
 	Net.start_local()  # tear down any network peer
+	bg.show()
 	menu.show()
 	status.text = message
