@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="128" height="128" rx="16" fill="#1b2631"/><polygon points="44,108 84,108 72,20 56,20" fill="#5d6d7e"/><circle cx="64" cy="76" r="14" fill="#e74c3c"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#4fa8d1"/>
+  <!-- 3 lanes -->
+  <polygon points="128,100 50,256 206,256" fill="#a0a0a0"/>
+  <polygon points="128,100 102,256 154,256" fill="#808080"/>
+  <!-- Isometric block (Obstacle) -->
+  <polygon points="100,180 128,190 156,180 128,170" fill="#ff6b6b"/>
+  <polygon points="100,180 128,190 128,210 100,200" fill="#ee5253"/>
+  <polygon points="156,180 128,190 128,210 156,200" fill="#c8d6e5"/>
+  <!-- Runner (Capsule) -->
+  <rect x="118" y="130" width="20" height="30" rx="10" fill="#1dd1a1"/>
+  <circle cx="128" cy="130" r="10" fill="#10ac84"/>
+</svg>
