@@ -1,0 +1,24 @@
+# Godot 4 specific
+.godot/
+*.import
+export_presets.cfg
+
+# Exported builds
+builds/
+exports/
+*.apk
+*.aab
+*.pck
+
+# Android keystores — never commit signing keys
+*.keystore
+*.jks
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.tmp
